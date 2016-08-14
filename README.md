@@ -1,2 +1,2 @@
-# repository.spartacus.jarvis
-Spartacus Repository Jarvis
+# repository.spartacus
+Spartacus Repository
