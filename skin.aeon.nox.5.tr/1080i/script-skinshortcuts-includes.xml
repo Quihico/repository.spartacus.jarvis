@@ -202,11 +202,11 @@
 		</item>
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
-			<label>$ADDON[script.qlickplay 32232] $ADDON[script.qlickplay 32233] $ADDON[script.qlickplay 32229]</label>
+			<label>$ADDON[script.qlickplay 32232] $ADDON[script.qlickplay 32229]</label>
 			<label2>folder</label2>
 			<icon>DefaultYoutube.png</icon>
 			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-			<property name="labelID">addon-script-qlickplay32232-addon-script-qlickplay32233-addon-script-qlickplay32229</property>
+			<property name="labelID">addon-script-qlickplay32232-addon-script-qlickplay32229</property>
 			<property name="defaultID">Browse Youtube Channels</property>
 			<onclick>RunScript(script.qlickplay,info=list,type=channel)</onclick>
 			<property name="path">RunScript(script.qlickplay,info=list,type=channel)</property>
@@ -217,11 +217,11 @@
 		</item>
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
-			<label>$ADDON[script.qlickplay 32232] $ADDON[script.qlickplay 32233] $ADDON[script.qlickplay 32231]</label>
+			<label>$ADDON[script.qlickplay 32232] $ADDON[script.qlickplay 32231]</label>
 			<label2>folder</label2>
 			<icon>DefaultYoutube.png</icon>
 			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-			<property name="labelID">addon-script-qlickplay32232-addon-script-qlickplay32233-addon-script-qlickplay32231</property>
+			<property name="labelID">addon-script-qlickplay32232-addon-script-qlickplay32231</property>
 			<property name="defaultID">Browse Youtube Videos</property>
 			<onclick>RunScript(script.qlickplay,info=list,type=playlist)</onclick>
 			<property name="path">RunScript(script.qlickplay,info=list,type=playlist)</property>
@@ -247,11 +247,11 @@
 		</item>
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
-			<label>$ADDON[script.qlickplay 32234] $ADDON[script.qlickplay 32233] $ADDON[script.qlickplay 32231]</label>
+			<label>$ADDON[script.qlickplay 32234] $ADDON[script.qlickplay 32231]</label>
 			<label2>folder</label2>
 			<icon>DefaultYoutube.png</icon>
 			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-			<property name="labelID">addon-script-qlickplay32234-addon-script-qlickplay32233-addon-script-qlickplay32231</property>
+			<property name="labelID">addon-script-qlickplay32234-addon-script-qlickplay32231</property>
 			<property name="defaultID">Search Youtube Videos</property>
 			<onclick>RunScript(script.qlickplay,info=list,type=playlist,query=qqq)</onclick>
 			<property name="path">RunScript(script.qlickplay,info=list,type=playlist,query=qqq)</property>
@@ -262,11 +262,11 @@
 		</item>
 		<item id="5">
 			<property name="id">$NUMBER[5]</property>
-			<label>$ADDON[script.qlickplay 32234] $ADDON[script.qlickplay 32233] $ADDON[script.qlickplay 32229]</label>
+			<label>$ADDON[script.qlickplay 32234] $ADDON[script.qlickplay 32229]</label>
 			<label2>folder</label2>
 			<icon>DefaultYoutube.png</icon>
 			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-			<property name="labelID">addon-script-qlickplay32234-addon-script-qlickplay32233-addon-script-qlickplay32229</property>
+			<property name="labelID">addon-script-qlickplay32234-addon-script-qlickplay32229</property>
 			<property name="defaultID">Search Youtube Channels</property>
 			<onclick>RunScript(script.qlickplay,info=list,type=channel,query=qqq)</onclick>
 			<property name="path">RunScript(script.qlickplay,info=list,type=channel,query=qqq)</property>
@@ -378,21 +378,6 @@
 			<onclick>RunScript("special://home/addons/plugin.program.tbs/epg.py",'live_tv')</onclick>
 			<property name="path">RunScript("special://home/addons/plugin.program.tbs/epg.py",'live_tv')</property>
 			<property name="list">RunScript(special://home/addons/plugin.program.tbs/epg.py,'live_tv')</property>
-			<visible>[StringCompare(System.ProfileName,Master user)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x12)</visible>
-			<property name="group">x12</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="2">
-			<property name="id">$NUMBER[2]</property>
-			<label>Live Mix</label>
-			<label2>Video Add-On</label2>
-			<icon>DefaultAddonProgram.png</icon>
-			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_LIVE_TV%2fHOME_LIVE_TV_001.jpg/</thumb>
-			<property name="labelID">livemix</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(10025,"plugin://plugin.program.super.favourites/?label=LIVE_TV&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FHOME_SYSTEM%2FLIVE_TV%2FLive+Mix",return)</onclick>
-			<property name="path">ActivateWindow(10025,"plugin://plugin.program.super.favourites/?label=LIVE_TV&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FHOME_SYSTEM%2FLIVE_TV%2FLive+Mix",return)</property>
-			<property name="list">plugin://plugin.program.super.favourites/?label=LIVE_TV&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FHOME_SYSTEM%2FLIVE_TV%2FLive+Mix</property>
 			<visible>[StringCompare(System.ProfileName,Master user)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x12)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
@@ -905,11 +890,11 @@
 	<include name="skinshortcuts-group-x6">
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
-			<label>$ADDON[script.qlickplay 32232] $ADDON[script.qlickplay 32233] $ADDON[script.qlickplay 32229]</label>
+			<label>$ADDON[script.qlickplay 32232] $ADDON[script.qlickplay 32229]</label>
 			<label2>folder</label2>
 			<icon>DefaultYoutube.png</icon>
 			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-			<property name="labelID">addon-script-qlickplay32232-addon-script-qlickplay32233-addon-script-qlickplay32229</property>
+			<property name="labelID">addon-script-qlickplay32232-addon-script-qlickplay32229</property>
 			<property name="defaultID">Browse Youtube Channels</property>
 			<onclick>RunScript(script.qlickplay,info=list,type=channel)</onclick>
 			<property name="path">RunScript(script.qlickplay,info=list,type=channel)</property>
@@ -920,11 +905,11 @@
 		</item>
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
-			<label>$ADDON[script.qlickplay 32232] $ADDON[script.qlickplay 32233] $ADDON[script.qlickplay 32231]</label>
+			<label>$ADDON[script.qlickplay 32232] $ADDON[script.qlickplay 32231]</label>
 			<label2>folder</label2>
 			<icon>DefaultYoutube.png</icon>
 			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-			<property name="labelID">addon-script-qlickplay32232-addon-script-qlickplay32233-addon-script-qlickplay32231</property>
+			<property name="labelID">addon-script-qlickplay32232-addon-script-qlickplay32231</property>
 			<property name="defaultID">Browse Youtube Videos</property>
 			<onclick>RunScript(script.qlickplay,info=list,type=playlist)</onclick>
 			<property name="path">RunScript(script.qlickplay,info=list,type=playlist)</property>
@@ -950,11 +935,11 @@
 		</item>
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
-			<label>$ADDON[script.qlickplay 32234] $ADDON[script.qlickplay 32233] $ADDON[script.qlickplay 32231]</label>
+			<label>$ADDON[script.qlickplay 32234] $ADDON[script.qlickplay 32231]</label>
 			<label2>folder</label2>
 			<icon>DefaultYoutube.png</icon>
 			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-			<property name="labelID">addon-script-qlickplay32234-addon-script-qlickplay32233-addon-script-qlickplay32231</property>
+			<property name="labelID">addon-script-qlickplay32234-addon-script-qlickplay32231</property>
 			<property name="defaultID">Search Youtube Videos</property>
 			<onclick>RunScript(script.qlickplay,info=list,type=playlist,query=qqq)</onclick>
 			<property name="path">RunScript(script.qlickplay,info=list,type=playlist,query=qqq)</property>
@@ -965,11 +950,11 @@
 		</item>
 		<item id="5">
 			<property name="id">$NUMBER[5]</property>
-			<label>$ADDON[script.qlickplay 32234] $ADDON[script.qlickplay 32233] $ADDON[script.qlickplay 32229]</label>
+			<label>$ADDON[script.qlickplay 32234] $ADDON[script.qlickplay 32229]</label>
 			<label2>folder</label2>
 			<icon>DefaultYoutube.png</icon>
 			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-			<property name="labelID">addon-script-qlickplay32234-addon-script-qlickplay32233-addon-script-qlickplay32229</property>
+			<property name="labelID">addon-script-qlickplay32234-addon-script-qlickplay32229</property>
 			<property name="defaultID">Search Youtube Channels</property>
 			<onclick>RunScript(script.qlickplay,info=list,type=channel,query=qqq)</onclick>
 			<property name="path">RunScript(script.qlickplay,info=list,type=channel,query=qqq)</property>
@@ -982,11 +967,11 @@
 	<include name="skinshortcuts-group-alt-x6">
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
-			<label>$ADDON[script.qlickplay 32232] $ADDON[script.qlickplay 32233] $ADDON[script.qlickplay 32229]</label>
+			<label>$ADDON[script.qlickplay 32232] $ADDON[script.qlickplay 32229]</label>
 			<label2>folder</label2>
 			<icon>DefaultYoutube.png</icon>
 			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-			<property name="labelID">addon-script-qlickplay32232-addon-script-qlickplay32233-addon-script-qlickplay32229</property>
+			<property name="labelID">addon-script-qlickplay32232-addon-script-qlickplay32229</property>
 			<property name="defaultID">Browse Youtube Channels</property>
 			<onclick>RunScript(script.qlickplay,info=list,type=channel)</onclick>
 			<property name="path">RunScript(script.qlickplay,info=list,type=channel)</property>
@@ -997,11 +982,11 @@
 		</item>
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
-			<label>$ADDON[script.qlickplay 32232] $ADDON[script.qlickplay 32233] $ADDON[script.qlickplay 32231]</label>
+			<label>$ADDON[script.qlickplay 32232] $ADDON[script.qlickplay 32231]</label>
 			<label2>folder</label2>
 			<icon>DefaultYoutube.png</icon>
 			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-			<property name="labelID">addon-script-qlickplay32232-addon-script-qlickplay32233-addon-script-qlickplay32231</property>
+			<property name="labelID">addon-script-qlickplay32232-addon-script-qlickplay32231</property>
 			<property name="defaultID">Browse Youtube Videos</property>
 			<onclick>RunScript(script.qlickplay,info=list,type=playlist)</onclick>
 			<property name="path">RunScript(script.qlickplay,info=list,type=playlist)</property>
@@ -1027,11 +1012,11 @@
 		</item>
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
-			<label>$ADDON[script.qlickplay 32234] $ADDON[script.qlickplay 32233] $ADDON[script.qlickplay 32231]</label>
+			<label>$ADDON[script.qlickplay 32234] $ADDON[script.qlickplay 32231]</label>
 			<label2>folder</label2>
 			<icon>DefaultYoutube.png</icon>
 			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-			<property name="labelID">addon-script-qlickplay32234-addon-script-qlickplay32233-addon-script-qlickplay32231</property>
+			<property name="labelID">addon-script-qlickplay32234-addon-script-qlickplay32231</property>
 			<property name="defaultID">Search Youtube Videos</property>
 			<onclick>RunScript(script.qlickplay,info=list,type=playlist,query=qqq)</onclick>
 			<property name="path">RunScript(script.qlickplay,info=list,type=playlist,query=qqq)</property>
@@ -1042,11 +1027,11 @@
 		</item>
 		<item id="5">
 			<property name="id">$NUMBER[5]</property>
-			<label>$ADDON[script.qlickplay 32234] $ADDON[script.qlickplay 32233] $ADDON[script.qlickplay 32229]</label>
+			<label>$ADDON[script.qlickplay 32234] $ADDON[script.qlickplay 32229]</label>
 			<label2>folder</label2>
 			<icon>DefaultYoutube.png</icon>
 			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-			<property name="labelID">addon-script-qlickplay32234-addon-script-qlickplay32233-addon-script-qlickplay32229</property>
+			<property name="labelID">addon-script-qlickplay32234-addon-script-qlickplay32229</property>
 			<property name="defaultID">Search Youtube Channels</property>
 			<onclick>RunScript(script.qlickplay,info=list,type=channel,query=qqq)</onclick>
 			<property name="path">RunScript(script.qlickplay,info=list,type=channel,query=qqq)</property>
@@ -1278,21 +1263,6 @@
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
-		<item id="2">
-			<property name="id">$NUMBER[2]</property>
-			<label>Live Mix</label>
-			<label2>Video Add-On</label2>
-			<icon>DefaultAddonProgram.png</icon>
-			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_LIVE_TV%2fHOME_LIVE_TV_001.jpg/</thumb>
-			<property name="labelID">livemix</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(10025,"plugin://plugin.program.super.favourites/?label=LIVE_TV&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FHOME_SYSTEM%2FLIVE_TV%2FLive+Mix",return)</onclick>
-			<property name="path">ActivateWindow(10025,"plugin://plugin.program.super.favourites/?label=LIVE_TV&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FHOME_SYSTEM%2FLIVE_TV%2FLive+Mix",return)</property>
-			<property name="list">plugin://plugin.program.super.favourites/?label=LIVE_TV&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FHOME_SYSTEM%2FLIVE_TV%2FLive+Mix</property>
-			<visible>StringCompare(System.ProfileName,Master user)</visible>
-			<property name="group">x12</property>
-			<property name="isSubmenu">True</property>
-		</item>
 	</include>
 	<include name="skinshortcuts-group-alt-x12">
 		<item id="1">
@@ -1306,21 +1276,6 @@
 			<onclick>RunScript("special://home/addons/plugin.program.tbs/epg.py",'live_tv')</onclick>
 			<property name="path">RunScript("special://home/addons/plugin.program.tbs/epg.py",'live_tv')</property>
 			<property name="list">RunScript(special://home/addons/plugin.program.tbs/epg.py,'live_tv')</property>
-			<visible>[StringCompare(System.ProfileName,Master user)] + StringCompare(Window(10000).Property(submenuVisibility),x12)</visible>
-			<property name="group">x12</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="2">
-			<property name="id">$NUMBER[2]</property>
-			<label>Live Mix</label>
-			<label2>Video Add-On</label2>
-			<icon>DefaultAddonProgram.png</icon>
-			<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_LIVE_TV%2fHOME_LIVE_TV_001.jpg/</thumb>
-			<property name="labelID">livemix</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(10025,"plugin://plugin.program.super.favourites/?label=LIVE_TV&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FHOME_SYSTEM%2FLIVE_TV%2FLive+Mix",return)</onclick>
-			<property name="path">ActivateWindow(10025,"plugin://plugin.program.super.favourites/?label=LIVE_TV&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FHOME_SYSTEM%2FLIVE_TV%2FLive+Mix",return)</property>
-			<property name="list">plugin://plugin.program.super.favourites/?label=LIVE_TV&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FHOME_SYSTEM%2FLIVE_TV%2FLive+Mix</property>
 			<visible>[StringCompare(System.ProfileName,Master user)] + StringCompare(Window(10000).Property(submenuVisibility),x12)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>

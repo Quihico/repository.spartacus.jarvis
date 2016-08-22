@@ -14,7 +14,7 @@
 		<label2>folder</label2>
 		<icon>DefaultYoutube.png</icon>
 		<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-		<action>RunScript(script.qlickplay,info=list,type=playlist)</action>
+		<action>RunScript(script.qlickplay,info=list,type=video)</action>
 	</shortcut>
 	<shortcut>
 		<defaultID />
@@ -30,7 +30,7 @@
 		<label2>folder</label2>
 		<icon>DefaultYoutube.png</icon>
 		<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-		<action>RunScript(script.qlickplay,info=list,type=playlist,query=qqq)</action>
+		<action>RunScript(script.qlickplay,info=list,type=video,query=qqqqq)</action>
 	</shortcut>
 	<shortcut>
 		<defaultID>Search Youtube Channels</defaultID>
@@ -38,6 +38,6 @@
 		<label2>folder</label2>
 		<icon>DefaultYoutube.png</icon>
 		<thumb>image://special%3A%2F%2F.kodi%2fhome%2fmedia%2fbranding%2fbackgrounds%2fHOME_YOUTUBE%2fHOME_YOUTUBE_001.jpg/</thumb>
-		<action>RunScript(script.qlickplay,info=list,type=channel,query=qqq)</action>
+		<action>RunScript(script.qlickplay,info=list,type=channel,query=qqqqq)</action>
 	</shortcut>
 </shortcuts>
